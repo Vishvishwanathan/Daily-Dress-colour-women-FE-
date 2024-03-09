@@ -11,6 +11,15 @@ import {
   faEnvelope,
   faHouse,
 } from "@fortawesome/free-solid-svg-icons";
+// const signin = {};
+// const register = {};
+// const b1 = {};
+// const pass = {};
+// const pass1 = {};
+// const value = "" ;
+// const value1 = "" ;
+// const value2 = "" ;
+// const value3 = "" ;
 
 function Login() {
   let [email, setEmail] = useState("");
@@ -28,6 +37,7 @@ function Login() {
         email,
         password,
       });
+
       if (res.status === 200) {
         toast.success("Login Successfull");
         sessionStorage.setItem("token", res.data.token);
@@ -145,7 +155,7 @@ function Login() {
                   position: "absolute",
                 }}
                 onMouseOver={() => {
-                  pass.type = "text";
+                  pass.type = "text"; 
                 }}
                 onMouseOut={() => {
                   pass.type = "password";
