@@ -193,6 +193,7 @@ body {
   position: absolute;
   width: 280px;
   transition: .5s ease;
+  padding: 0px 50px;
 }
 
 .input-field {
