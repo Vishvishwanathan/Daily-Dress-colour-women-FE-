@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const AxiosService = axios.create({
-    baseURL:"https://daily-dress-colour-women-be.onrender.com/api",
+    baseURL:"https://daily-dress-colour-women-be.onrender.com/",
     headers:{
         'Content-Type':"application/json",
     }
